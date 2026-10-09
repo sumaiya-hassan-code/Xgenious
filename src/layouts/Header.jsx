@@ -7,20 +7,20 @@ import Button from "../Components/Button"
 
 const Header = () => {
   return (
-    <div className={"bg-transparent border border-[#ECEDEF] backdrop-blur-md  py-4"}>
+    <div className={"fixed w-full top-0 left-0 bg-transparent border-b border-[#ECEDEF] backdrop-blur-md  py-4"}>
       <Container>
         <Flex>
           <div className="w-[20%]">
             <Image imgSrc={logo}/>
           </div>
           <div className="w-[50%]">
-            <ul className={"flex gap-x-7"}>
-              <li><Link to={"/"} className="text-[16px] text-[#242B36]">Home</Link></li>
-              <li><Link to={"/Jobs"} className="text-[16px] text-[#242B36]">Jobs</Link></li>
-              <li><Link to={"/Talents"} className="text-[16px] text-[#242B36]">Talents</Link></li>
+            <ul className={"flex gap-x-7 text-xl" }>
+              <li><Link to={"/"}>Home</Link></li>
+              <li><Link to={"/Jobs"} >Jobs</Link></li>
+              <li><Link to={"/Talents"} >Talents</Link></li>
               <li><Link to={"/Subscriptions"}>Subscriptions</Link></li>
-              <li><Link to={"/Pages"} className="text-[16px] text-[#242B36]">Pages</Link></li>
-              <li><Link to={"/Contact"} className="text-[16px] text-[#242B36]">Contact</Link></li>
+              <li><Link to={"/Pages"} >Pages</Link></li>
+              <li><Link to={"/Contact"} >Contact</Link></li>
             </ul>
           </div>
           <div className="W-[30%] flex justify-between gap-x-4">
