@@ -7,7 +7,7 @@ import Button from "../Components/Button"
 
 const Header = () => {
   return (
-    <div className={"bg-teal-300 py-4"}>
+    <div className={"bg-transparent border border-[#ECEDEF] backdrop-blur-md  py-4"}>
       <Container>
         <Flex>
           <div className="w-[20%]">
