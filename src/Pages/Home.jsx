@@ -7,7 +7,8 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Home = () => {
   return (
-       <div className="min-h-dvh pt-25" style={{ backgroundImage: "linear-gradient(284.23deg, rgba(255,245,230,0.8) 12.33%, rgba(255,255,255,0.5) 53.22%, rgba(179,255,233,0.8) 98.24%)", }}>
+      <>
+      <div className="min-h-dvh pt-25 pb-25" style={{ backgroundImage: "linear-gradient(284.23deg, rgba(255,245,230,0.8) 12.33%, rgba(255,255,255,0.5) 53.22%, rgba(179,255,233,0.8) 98.24%)", }}>
       <Container>
         <Flex>
           <div className="w-[50%]">
@@ -104,7 +105,52 @@ const Home = () => {
           </div>
         </Flex>
       </Container>
-    </div>
+      </div>
+      <div className="pt-25 pb-25">
+        <Container>
+          <div className="flex justify-between">
+            <h3 className="font-semibold text-5xl ">Popular Categories</h3>
+            <a 
+            href="#" 
+            className="px-6 py-3 border-1 rounded-lg border-[#417D6E] hover:bg-[#417D6E] hover:text-white flex  items-center text-[#417D6E]"> 
+            Browse all categories<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div className="flex gap-x-2 mt-10">
+            <div className="h-50 w-100 bg-white  rounded-lg border-[#ecedef] border-1 py-2 px-3">
+                <div className="h-8 w-8 rounded-full translate-1/2 bg-green-200 w-1/14 -ml-4 mb-4 relative"><i class="fa-solid fa-globe absolute top-1/2 left-1/2 -translate-1/2"></i></div>
+                <h3 className="font-normal text-2xl mt-2">Website Development</h3>
+                <p className="text-1xl font-thin mt-2">Customer experience and account management jobs.</p>
+                <p className="mt-5">6 Jobs</p>
+            </div>
+            <div className="h-50 w-120 bg-white rounded-lg border-[#ecedef] border-1 py-3 px-3 ">
+                <div className="h-8 w-8 rounded-full translate-1/2 bg-green-200 w-1/14 -ml-4 mb-4 relative">
+                <i class="fa-regular fa-file-code absolute top-1/2 left-1/2 -translate-1/2"></i>
+                </div>
+                <h3 className="font-normal text-2xl mt-2">Mobile App Development</h3>
+                <p className="text-1xl font-thin mt-2"> Customer experience and account management jobs.</p>
+                <p className="mt-5">18 Jobs</p>
+            </div>
+            <div className="h-50 w-100 bg-white rounded-lg   border-[#ecedef] border-1 py-3 px-3 ">
+                <div className="h-8 w-8 rounded-full translate-1/2 bg-green-200 w-1/14 -ml-4 mb-4 relative"><i class="fa-solid fa-bag-shopping absolute top-1/2 left-1/2 -translate-1/2"></i></div>
+                <h3 className="font-normal text-2xl mt-2">Digital Marketing</h3>
+                <p className="text-1xl font-thin mt-2">Customer experience and account management jobs.</p>
+                <p className="mt-5">22 Jobs</p>
+            </div>
+            <div className="h-50 w-100 bg-white rounded-lg  border-[#ecedef] border-1 py-3 px-3">
+                <div className="h-8 w-8 rounded-full translate-1/2 bg-green-200 w-1/14 -ml-4 mb-4 relative"><i class=" fa-regular fa-circle-play absolute top-1/2 left-1/2 -translate-1/2"></i></div>
+                <h3 className="font-normal text-2xl mt-2">Video Editing</h3>
+                <p className="text-1xl font-thin mt-2">Customer experience and account management jobs.</p>
+                <p className="mt-5">8 Jobs</p>
+            </div>
+        </div>
+        </Container>
+      </div>
+      <div className="pt-25 pb-25">
+        <Container>
+          
+        </Container>
+      </div>
+      </>
   )
 }
 
