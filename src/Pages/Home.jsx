@@ -2,7 +2,7 @@ import Container from "../components/Container"
 import Flex from "../Components/Flex"
 import Image from "../Components/Image"
 import Banner from "../assets/Banner.png"
-import { FaArrowRight, FaGlobe, FaShoppingCart, FaPlayCircle} from "react-icons/fa6";
+import { FaArrowRight, FaGlobe, FaShoppingCart, FaPlayCircle, FaFile } from "react-icons/fa";
 
 
 const Home = () => {
@@ -122,21 +122,21 @@ const Home = () => {
                 <p className="text-1xl font-thin mt-2">Customer experience and account management jobs.</p>
                 <p className="mt-5">6 Jobs</p>
             </div>
-            <div className="h-50 w-120 bg-white rounded-lg border-[#ecedef] border-1 py-3 px-3 ">
+            <div className="h-50 w-120 bg-white rounded-lg border-[#ecedef] border py-3 px-3 ">
                 <div className="h-8 w-8 rounded-full translate-1/2 bg-green-200 w-1/14 -ml-4 mb-4 relative">
-                <i class="fa-regular fa-file-code absolute top-1/2 left-1/2 -translate-1/2"></i>
+                <FaFile className={"absolute top-1/2 left-1/2 -translate-1/2"}/>
                 </div>
                 <h3 className="font-normal text-2xl mt-2">Mobile App Development</h3>
                 <p className="text-1xl font-thin mt-2"> Customer experience and account management jobs.</p>
                 <p className="mt-5">18 Jobs</p>
             </div>
-            <div className="h-50 w-100 bg-white rounded-lg   border-[#ecedef] border-1 py-3 px-3 ">
+            <div className="h-50 w-100 bg-white rounded-lg   border-[#ecedef] border py-3 px-3 ">
                 <div className="h-8 w-8 rounded-full translate-1/2 bg-green-200 w-1/14 -ml-4 mb-4 relative"><FaShoppingCart className={"absolute top-1/2 left-1/2 -translate-1/2"}/></div>
                 <h3 className="font-normal text-2xl mt-2">Digital Marketing</h3>
                 <p className="text-1xl font-thin mt-2">Customer experience and account management jobs.</p>
                 <p className="mt-5">22 Jobs</p>
             </div>
-            <div className="h-50 w-100 bg-white rounded-lg  border-[#ecedef] border-1 py-3 px-3">
+            <div className="h-50 w-100 bg-white rounded-lg  border-[#ecedef] border py-3 px-3">
                 <div className="h-8 w-8 rounded-full translate-1/2 bg-green-200 w-1/14 -ml-4 mb-4 relative"><FaPlayCircle className={"absolute top-1/2 left-1/2 -translate-1/2"}/></div>
                 <h3 className="font-normal text-2xl mt-2">Video Editing</h3>
                 <p className="text-1xl font-thin mt-2">Customer experience and account management jobs.</p>
