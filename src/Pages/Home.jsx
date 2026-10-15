@@ -2,7 +2,7 @@ import Container from "../components/Container"
 import Flex from "../Components/Flex"
 import Image from "../Components/Image"
 import Banner from "../assets/Banner.png"
-import { FaArrowRight } from "react-icons/fa6";
+import { FaArrowRight, FaGlobe, FaShoppingCart, FaPlayCircle} from "react-icons/fa6";
 
 
 const Home = () => {
@@ -112,12 +112,12 @@ const Home = () => {
             <h3 className="font-semibold text-5xl ">Popular Categories</h3>
             <a 
             href="#" 
-            className="px-6 py-3 border-1 rounded-lg border-[#417D6E] hover:bg-[#417D6E] hover:text-white flex  items-center text-[#417D6E]"> 
-            Browse all categories<i class="fa-solid fa-arrow-right"></i></a>
+            className="px-6 py-3 border rounded-lg border-[#417D6E] hover:bg-[#417D6E] hover:text-white flex  items-center text-[#417D6E]"> 
+            Browse all categories<FaArrowRight /></a>
         </div>
         <div className="flex gap-x-2 mt-10">
-            <div className="h-50 w-100 bg-white  rounded-lg border-[#ecedef] border-1 py-2 px-3">
-                <div className="h-8 w-8 rounded-full translate-1/2 bg-green-200 w-1/14 -ml-4 mb-4 relative"><i class="fa-solid fa-globe absolute top-1/2 left-1/2 -translate-1/2"></i></div>
+            <div className="h-50 w-100 bg-white  rounded-lg border-[#ecedef] border py-2 px-3">
+                <div className="h-8 w-8 rounded-full translate-1/2 bg-green-200 w-1/14 -ml-4 mb-4 relative"><FaGlobe className={"absolute top-1/2 left-1/2 -translate-1/2"}/></div>
                 <h3 className="font-normal text-2xl mt-2">Website Development</h3>
                 <p className="text-1xl font-thin mt-2">Customer experience and account management jobs.</p>
                 <p className="mt-5">6 Jobs</p>
@@ -131,13 +131,13 @@ const Home = () => {
                 <p className="mt-5">18 Jobs</p>
             </div>
             <div className="h-50 w-100 bg-white rounded-lg   border-[#ecedef] border-1 py-3 px-3 ">
-                <div className="h-8 w-8 rounded-full translate-1/2 bg-green-200 w-1/14 -ml-4 mb-4 relative"><i class="fa-solid fa-bag-shopping absolute top-1/2 left-1/2 -translate-1/2"></i></div>
+                <div className="h-8 w-8 rounded-full translate-1/2 bg-green-200 w-1/14 -ml-4 mb-4 relative"><FaShoppingCart className={"absolute top-1/2 left-1/2 -translate-1/2"}/></div>
                 <h3 className="font-normal text-2xl mt-2">Digital Marketing</h3>
                 <p className="text-1xl font-thin mt-2">Customer experience and account management jobs.</p>
                 <p className="mt-5">22 Jobs</p>
             </div>
             <div className="h-50 w-100 bg-white rounded-lg  border-[#ecedef] border-1 py-3 px-3">
-                <div className="h-8 w-8 rounded-full translate-1/2 bg-green-200 w-1/14 -ml-4 mb-4 relative"><i class=" fa-regular fa-circle-play absolute top-1/2 left-1/2 -translate-1/2"></i></div>
+                <div className="h-8 w-8 rounded-full translate-1/2 bg-green-200 w-1/14 -ml-4 mb-4 relative"><FaPlayCircle className={"absolute top-1/2 left-1/2 -translate-1/2"}/></div>
                 <h3 className="font-normal text-2xl mt-2">Video Editing</h3>
                 <p className="text-1xl font-thin mt-2">Customer experience and account management jobs.</p>
                 <p className="mt-5">8 Jobs</p>
